@@ -31,6 +31,7 @@ python manage.py createsuperuser
 ```bash
 python manage.py runserver
 ```
+6. Create a admin role user using django admin panel and super admin account (Only admin role can create a customer service representative via frontend)
 
 ## Setting up frontend
 
