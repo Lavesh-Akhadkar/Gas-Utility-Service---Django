@@ -1,0 +1,88 @@
+/* Container for the entire service request view */
+.service-view-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Title for the service requests */
+  .service-view-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Service request list container */
+  .service-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Individual service request item */
+  .service-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Service request title */
+  .service-item-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Service request description and status */
+  .service-item-description,
+  .service-item-status {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Styling for the status updates */
+  .status-updates {
+    margin-top: 20px;
+  }
+  
+  .status-updates-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .status-update-item {
+    background-color: #e9f7ef;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 6px;
+  }
+  
+  .status-update-item p {
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  /* Image container */
+  .image-container {
+    margin-top: 20px;
+  }
+  
+  .service-item-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-top: 10px;
+  }
+  
